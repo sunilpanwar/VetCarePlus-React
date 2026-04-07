@@ -2,7 +2,8 @@
 // Replace this URL with your Google Apps Script Web App URL
 const API_CONFIG = {
     // Your Google Apps Script Web App URL
-    API_URL: 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec',
+    
+    API_URL: 'https://script.google.com/macros/s/AKfycbz1SZ3KVEDJyhLFD2lovkWPn5Itj165-BMrwqBptB9EbILo61pBCq9V06wSZ7iOU5o7pA/exec',
     
     // API call helper function
     async callAPI(action, params = {}) {
