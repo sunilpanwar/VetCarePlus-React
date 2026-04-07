@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetCare Plus - React</title>
+    
+    <!-- React CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel Standalone for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Common Styles -->
+    <link rel="stylesheet" href="styles/common.css">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- API Configuration -->
+    <script src="config.js"></script>
+    
+    <!-- React Components -->
+    <script type="text/babel" src="components/Navbar.jsx"></script>
+    <script type="text/babel" src="components/FAB.jsx"></script>
+    <script type="text/babel" src="components/FilterButtons.jsx"></script>
+    <script type="text/babel" src="components/Modal.jsx"></script>
+    <script type="text/babel" src="components/Alert.jsx"></script>
+    
+    <!-- React Pages -->
+    <script type="text/babel" src="pages/Login.jsx"></script>
+    <script type="text/babel" src="pages/Dashboard.jsx"></script>
+    <script type="text/babel" src="pages/Medicines.jsx"></script>
+    <script type="text/babel" src="pages/Sales.jsx"></script>
+    <script type="text/babel" src="pages/Vaccinations.jsx"></script>
+    
+    <!-- Services -->
+    <script type="text/babel" src="services/api.js"></script>
+    <script type="text/babel" src="services/auth.js"></script>
+    
+    <!-- Main App -->
+    <script type="text/babel" src="App.jsx"></script>
+</body>
+</html>
